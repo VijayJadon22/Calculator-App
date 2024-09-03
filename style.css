@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.calculator-container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(135, 135, 135);
+
+}
+.calculator{
+    /* height: 80vh; */
+    width: 25vw;
+    /* border: 1px solid blue; */
+    background-color: black;
+    border-radius: 20px;
+}
+
+#text-input{
+    width: 100%;
+    height: 70px;
+    font-size: 1.8rem;
+    text-align: right;
+    background-color: black;
+    outline: none;
+    border: none;
+    color: white;
+    
+    padding: 0px 10px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.result{
+    padding-top: 10px;
+    height: 40px;
+    font-size: 1.5rem;
+    color: white;
+    text-align: right;
+    padding: 0px 10px;
+    border-bottom: 5px solid grey;
+}
+
+.buttons-div{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    /* padding-bottom: 5px; */
+    padding: 20px 20px;
+}
+
+
+/* provides styling to each row */
+.row-style{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* provides styling to each button */
+.button-style{
+    width: 60px;
+    height: 60px;
+    border: none;
+    background-color: #333333;
+    border-radius: 50%;
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.zero{
+    width: 110px;
+    border-radius: 20px;
+}
+
+
+
+.btn-row-one button:hover{
+    background-color: orange;
+    
+}
+.btn-row-two button:hover{
+    background-color: orange;
+}
+.btn-row-three button:hover{
+    background-color: orange;
+}
+.btn-row-four button:hover{
+    background-color: orange;
+}
+
+.operators{
+    background-color: orange;
+}
+
+.operators-one{
+    background-color: #a5a5a6;
+    color:black
+}
